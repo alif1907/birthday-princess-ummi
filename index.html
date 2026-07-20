@@ -8,29 +8,41 @@
 
 <style>
 body {
-    text-align: center;
-    font-family: Arial, sans-serif;
-    background: #ffe6f2;
-    padding: 30px;
+          text-align: center;
+          front-family: Arial, sans-serif;
+          background: linear-gradient(##ffe6f2, #fff);
+          padding: 30px;
 }
-
-h1 {
-    color: #ff4081;
+          h1{
+                    color: #ff4081;
+                    animation: muncul 2s;
+          }
+          .message {
+                    background: white;
+                    padding: 20px;
+                    border-radius: 20px;
+                    margin: 20px;
+                    font-size: 18px;
+                    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+                              animation:muncul 2s;
+          }
+          img{
+                    width: 300px;
+                    border-radius: 20px;
+                    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+          }
+          @keyframes muncul {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
-
-.message {
-    background: white;
-    padding: 20px;
-    border-radius: 15px;
-    margin: 20px;
-    font-size: 18px;
-}
-
-img {
-    width: 300px;
-    border-radius: 15px;
-}
-</style>
+          </style>
+          
 
 </head>
 
@@ -43,7 +55,7 @@ img {
 <p>
 Semoga gembira dan bahagia selalu.
 <br><br>
-Semoga dikurniakan rakan-rakan yang baik.
+✨ Semoga dikurniakan rakan-rakan yang baik 🌻.
 <br><br>
 Semoga bergema sampai selamanya~
 </p>
